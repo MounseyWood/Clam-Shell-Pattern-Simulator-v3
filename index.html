@@ -4087,8 +4087,7 @@
             border: none;
         }
     }
-</style>
-// Add event listener to watch for window resize and adjust canvas if needed
+    // Add event listener to watch for window resize and adjust canvas if needed
     window.addEventListener('resize', () => {
         // Ensure canvas and visualizations fit appropriately
         if (animationState.isPlaying) {
@@ -4147,5 +4146,6 @@
         // Announce completion
         statusUpdate.textContent = `Simulation complete. High resolution pattern (${width}${widthUnit} x ${height}${heightUnit} at ${dpi} DPI) is ready to download.`;
     }
+</style>
 </body>
 </html>
